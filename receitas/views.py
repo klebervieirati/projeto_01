@@ -1,8 +1,9 @@
 from cgitb import reset
 
-from django.http import HttpResponse
 from django.shortcuts import render
 
+# (render) USADO PARA CARREGAR AS PAGINAS HTML USA DOS PARAMETROS(request e nome do arquivo html)
+ 
 # Create your views here.
 
 
