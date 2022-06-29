@@ -9,12 +9,12 @@ from django.shortcuts import render
 
 def home(request):  # pagina inicial
 
-    return render(request, 'home.html')     # paginas cerregadas na pasta templetes
+    return render(request, 'home.html')     # paginas cerregadas na pasta templates
 
 
 def contato(request):  # pagina contato
 
-    return render(request, 'contato.html')
+    return render(request, 'contatos/contato.html')
 
 
 def sobre(request):  # pagina sobre
